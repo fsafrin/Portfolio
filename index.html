@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Safrin's Portfolio</title>
+<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="./mediaqueries.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.11/lottie.min.js"></script>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="./assets/Animation - 1726490770555.json"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo" style="font: ang; font-weight: bold;">Farhan Safrin</div>
+    <div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo" style="font-weight: bold;">Farhan Safrin</div>
+    <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Certifications</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+</nav>
+<section id="profile">
+    
+    <div id="lottie-animation"></div>
+
+    <div class="section__text">
+    <p class="section__text__p1" style="text-align: left;">Hello, I'm</p>
+    <h1 class="title" style="text-align: left;">Sayeda Farhan E <span style="color: brown;">Safrin</span></h1>
+    <p class="section__text__p2" style="text-align: left;">An Electronics Enthusiast & avid traveler</p>
+    <div class="btn-container">
+        <button
+        class="btn btn-color-2"
+        onclick="window.open('./assets/cvSafrin.pdf')"
+        >
+        Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+        </button>
+    </div>
+    <div id="socials-container" class="socialhover">
+        <img
+        src="./assets/linkedin.png"
+        alt="My LinkedIn profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/shaonpaul/'"
+        />
+        <img
+        src="./assets/github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/fsafrin'"
+        />
+    </div>
+    </div>
+</section>
+<div><br></div>
+
+<section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+    <div class="section__pic-container">
+        <img
+        src="./assets/safrin.jpeg"
+        alt="Profile picture"
+        class="about-pic"
+        />
+    </div>
+    <div class="about-details-container">
+        <div class="about-containers">
+        <div class="details-container">
+            <img
+            src="./assets/experience.png"
+            alt="Experience icon"
+            class="icon"
+            />
+            <h3>Experience</h3>
+            <p>Fresher<br /><br>Recent Electrical Engineering graduate with expertise in digital electronics, VLSI design, and circuit development. Known for problem-solving skills, adaptability, and a collaborative mindset. Passionate about combining technical knowledge with creativity to drive innovation and personal growth in the electronics field.</p>
+        </div>
+        <div class="details-container">
+            <img
+            src="./assets/education.png"
+            alt="Education icon"
+            class="icon"
+            />
+            <h3>Education</h3>
+            <p>Bachelor of Technology <br>in Electrical Engineering. <br>National Institute of Technology, Rourkela. <br> Odisha-769008, India.</p>
+        </div>
+        </div>
+        <div class="text-container">
+        <p>
+          
+        </p>
+        </div>
+    </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience'"
+    />
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills & Courses</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Skills</h2>
+          <div class="article-container">
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LabVIEW</h3>
+                  <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Multisim</h3>
+                  <p>Experienced</p>
+                </div>
+            </article>
+            <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MATLab</h3>
+                  <p>Experienced</p>
+                </div>
+            </article>
+
+
+
+
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>C</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>ODK</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Canva</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>MS Office</h3>
+                <p>Proficient</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Verilog</h3>
+                <p>Proficient</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>GitHub</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Kobo Toolbox</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Courses</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Digital Electronics</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Embedded Systems</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Analog Electronics</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Computer Vision</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Machine Learning</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>DSP</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./assets/checkmark.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Controll System</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+</section>
+<section id="projects">
+    <p class="section__text__p1">See my</p>
+    <h1 class="title">Certifications</h1>
+    <div class="experience-details-container">
+    <div class="about-containers">
+        <div class="details-container color-container">
+        <div class="article-container">
+            
+        </div>
+        <h2 class="experience-sub-title project-title">Programming for Everybody (Getting Started with Python)<br>University of Michigan</h2>
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.coursera.org/account/accomplishments/certificate/LPTEE246RUUH'"
+            >
+            Certificate
+            </button>
+
+        </div>
+        </div>
+        <div class="details-container color-container">
+        <div class="article-container">
+            
+        </div>
+        <h2 class="experience-sub-title project-title">Linear Circuits 2: AC Analysis <br>Georgia Institute of Technology</h2>
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.coursera.org/account/accomplishments/certificate/WXVDLVZ8F9DV'"
+            >
+            Certificate
+            </button>
+      
+        </div>
+        </div>
+        <div class="details-container color-container">
+        <div class="article-container">
+            
+        </div>
+        <h2 class="experience-sub-title project-title">Electric Industry Operations and Markets <br>Duke University</h2>
+        <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.coursera.org/account/accomplishments/certificate/6NECXNS5Z4AK'"
+            >
+            Certificate
+            </button>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+    />
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:shaonpaul.cse@gmail.com">sayedafarhanesafrin@gmail.com</a></p>
+    </div>
+    
+    <div class="contact-info-container">
+        <img
+        src="./assets/phone-call_455705.png"
+        alt="Call icon"
+        class="icon contact-icon"
+        />
+        <p><a href="tel:+8801629794954">+880 1860270645</a></p>
+    </div>
+    
+    </div>
+    <div class="socialmedia">
+        <div class="social" style="display: flex;">
+            <a href="https://www.facebook.com/share/1M2xpJDwoE/?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/farhan_safrin/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sayedafarhanesafrin/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/fsafrin" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    
+
+
+
+</section>
+
+
+
+
+<footer>
+    <nav>
+    <div class="nav-links-container">
+        <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <p></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
